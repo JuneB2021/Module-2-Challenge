@@ -7,8 +7,9 @@ This is a command-line interface application to indentify and save the qualifyin
 ## Technologies
 
 This project leverages python 3.7 with the following packages:
-i.  fire - for the command line interface, help pages, and entry-point.
-ii. questionary - for interactives user prompts and dialogs
+
+    •  fire - for the command line interface, help pages, and entry-point.
+    •  questionary - for interactives user prompts and dialogs
 
 ---
 
