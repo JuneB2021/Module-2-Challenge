@@ -9,9 +9,10 @@ Example:
 import sys
 import fire
 import questionary
+import csv
 from pathlib import Path
 
-from qualifier.utils.fileio import load_csv
+from qualifier.utils.fileio import load_csv, save_csv
 
 from qualifier.utils.calculators import (
     calculate_monthly_debt_ratio,
@@ -98,8 +99,9 @@ def find_qualifying_loans(bank_data, credit_score, debt, income, loan, home_valu
     bank_data_filtered = filter_loan_to_value(loan_to_value_ratio, bank_data_filtered)
 
     print(f"Found {len(bank_data_filtered)} qualifying loans")
-
+    
     return bank_data_filtered
+    
 
 
 def save_qualifying_loans(qualifying_loans):
@@ -108,9 +110,18 @@ def save_qualifying_loans(qualifying_loans):
     Args:
         qualifying_loans (list of lists): The qualifying bank loans.
     """
-    # @TODO: Complete the usability dialog for savings the CSV Files.
-    # YOUR CODE HERE!
+    qualifying_loans = []
+    data = qualifying_loans
 
+    # Set the output header
+    header = ["Lender", "Max Loan Amount", "Max LTV", "Max DTI" , "Min Credit Score", "Interest Rate"]
+
+    # Set the output file path
+    output_path = Path("C:/Users/jucha/FinTechWorkspace/Challenge/Module2/qualifier/data/Output/qualifying_loans.csv")
+
+    # Save output as csv file
+           
+    return save_csv(output_path, data)
 
 def run():
     """The main function for running the script."""
