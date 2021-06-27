@@ -30,7 +30,10 @@ This section should include screenshots, code blocks, or animations showing how 
 
 ## Usage
 
-This section should include screenshots, code blocks, or animations explaining how to use your project.
+To use the Loan Qualifier Application, simply run the app.py. 
+Upon launching the Loan Qualifier Application, you will need to answer the question below including the file location for the rate sheet (csv file).
+
+
 
 ---
 
