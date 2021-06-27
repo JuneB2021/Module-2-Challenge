@@ -31,6 +31,7 @@ This section should include screenshots, code blocks, or animations showing how 
 ## Usage
 
 To use the Loan Qualifier Application, simply run the app.py. 
+
 Upon launching the Loan Qualifier Application, you will need to answer the question below including the file location for the rate sheet (csv file).
 
 ![markdown_image](https://github.com/JuneB2021/Module-2-Challenge/blob/main/markdown_image/Screenshot_questionary.png)
