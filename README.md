@@ -22,9 +22,11 @@ The following dependencies needed to be installed before running the application
 
 ---
 
-## Examples
+## Application Process
 
-This section should include screenshots, code blocks, or animations showing how your project works.
+Detail process:
+
+![markdown_image](https://github.com/JuneB2021/Module-2-Challenge/blob/main/markdown_image/Process.png)
 
 ---
 
